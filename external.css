@@ -1,0 +1,88 @@
+html{
+    background-color: grey;
+}
+header{
+    text-align: center;
+}
+body {
+    width: 100px;
+    height: 120px;
+    background: white;
+    border-radius: %
+    z-index:100%
+    
+  }
+  
+    section{
+    transform: scaleX(10);
+    width: px;
+    height: 100px;
+    background: yellow;
+  }
+  
+  p {
+    align-items: center;
+    flex-direction: row;
+    transform: scaleX(05);
+    width: 1000px;
+    height: 100px;
+    background: blue;
+    border-radius: 150px / 100px;
+  }
+
+  figure{
+    transform: scaleX(20);
+    width: 100px;
+    height: 100px;
+    background: green;
+  }
+ 
+  article{
+        transition: linear;
+        width: 200px;
+        height: 100px;
+        background: black;
+        border-radius: 100px / 50px;
+      }
+      div{
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid orange;
+        position: relative;
+      }
+      div ::after {
+        
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid red;
+        position: absolute;
+        content: "";
+        top: 30px;
+        left: -50px;
+      }
+      
+    main  {
+        
+        width: 100px;
+        height: 50px;
+        transform: skew(50deg);
+        background: purple;
+    }
+ shape {
+    display: inline-flex
+ }
+footer{
+    background-color: black;
+    width: 200%;
+}
+body{
+
+}
+.flexbox{
+    flex-grow: inherit;
+    color: azure;
+}
